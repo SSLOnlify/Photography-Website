@@ -34,7 +34,7 @@ button{cursor: pointer}
 }
     @keyframes menuOut{
         from{right:0%}
-        top {right: -60%}
+        top {right: -100%}
 }
 
 /*#####Main Section#####*/
@@ -652,7 +652,7 @@ div.newsletter form button:hover{
         padding: 3rem 2rem;
         left: auto;
         top: 0;
-        right: -60%;
+        right: -100%;
         width: 17rem;
         height: 120%;
         position: fixed;

@@ -17,7 +17,7 @@ triagram.addEventListener("click", () => {
         triagram.classList.remove("exitMenu");
         navLinks.style.animation = "menuOut";
         navLinks.style.animationDuration = "0.5s";
-        navLinks.style.right = "-60%";
+        navLinks.style.right = "-100%";
         for (let x = 0; x < triagramLines.length; x++) {
             triagramLines[x].classList.remove("exitMenu");
         }
