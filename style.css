@@ -272,6 +272,7 @@ section.photoShoot p.cp{
     transform: translate(-50%,-50%);
     font-family: serif ,sans-serif;
     font-weight: bolder;   
+    z-index: 1;
 }
 
 div.model{
@@ -296,7 +297,7 @@ div.moreInfo h1{
 }
 
 div.moreInfo div.textWrapper p{
-    line-height: 1.4;
+    line-height: 1.6;
     font-size: 1.1rem;
 }
 
@@ -524,6 +525,17 @@ div.buttonWrapper button:last-child{
     }
 }
 
+@media only screen and (max-width: 1000px){
+    div.buttonWrapper button:first-child{
+    padding: 18px 2.5rem ;
+}
+
+div.buttonWrapper button:last-child{
+        padding: 12px 1.5rem;
+    border: 0;
+    box-shadow: 0px 0px 0px 0.3px #ffa401;
+}
+}
 
 /*#####Footer#####*/
 
