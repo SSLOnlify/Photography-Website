@@ -241,10 +241,6 @@ div.aboutUsInfoWrapper div.info p{
     }
 }
 
-
-
-
-
 /*#####Section - PhotoShoot#####*/
 
 section.photoShoot{
@@ -254,6 +250,7 @@ section.photoShoot{
     width: 100%;
     display: flex;
     position: relative;
+    z-index: -2;
 }
 
 div.model,div.moreInfo{
@@ -274,8 +271,7 @@ section.photoShoot p.cp{
     letter-spacing: 0px;
     transform: translate(-50%,-50%);
     font-family: serif ,sans-serif;
-    font-weight: bolder;
-    
+    font-weight: bolder;   
 }
 
 div.model{
@@ -285,9 +281,9 @@ div.model{
 }
 div.moreInfo{
     padding: 7rem 4rem;
-     color: #131313;
-     font-family: "roboto",sans-serif;
-    background: #e0dbdb;
+    color: #131313;
+    font-family: "roboto",sans-serif;
+    background: whitesmoke;
 }
 
 div.moreInfo div.textWrapper{
@@ -319,10 +315,12 @@ div.moreInfo div.textWrapper p{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 40rem;
+        height:100%;
         width: 100%;
         max-width: auto;
         box-shadow: 0px 0px 3px -2px black;
+         background: #e0dbdb;
+        z-index: 1;
     }
     div.textWrapper{
         width: 100%;
@@ -336,15 +334,6 @@ div.moreInfo div.textWrapper p{
 
 
 /*Section-2ndAboutUs width images*/
-
-section.fourthSection{
-}
-
-section.fourthSection h1{
-    
-}
-
-
 section.fourthSection div.info{
     margin: 5px;
     width: fit-content;
@@ -358,9 +347,7 @@ section.fourthSection div.info img{
     height: auto;
     width: 375px; 
     padding: 0;
-
 }
-
 
     /*Media Screen Section Fourth*/
 @media only screen and (max-width: 1230px){
@@ -745,6 +732,5 @@ div.newsletter form button:hover{
 @media only screen and (max-width: 450px) {
     div.heroContent h1{
         font-size: 4rem;
-/*        text-shadow: 0px 2.5px 0px black;*/
     }
 }
